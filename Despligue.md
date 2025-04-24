@@ -1,7 +1,7 @@
 
 
 
-## 📌 Descricion del proyecto
+## 📌 Descripcion del proyecto
 
 - 🌍 **Sitio Web en Producción:** [**POKEDEX**](https://polite-bush-02974e510.6.azurestaticapps.net/)
 - 👤 **Autor:** Juan Sebastián Blanco Velásquez
