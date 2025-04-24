@@ -62,3 +62,13 @@ Tu app será accesible desde la siguiente URL:
 El repositorio original se encuentra en:
 
 🔗 [ **github.com/Juansebblanco/PoKeDeX1** ](https://github.com/Juansebblanco/PoKeDeX1)
+
+---
+
+## 🛠️ Ajustes Adicionales
+
+Se realizó una corrección en las rutas de las imágenes utilizando el siguiente ajuste en el código:
+
+```javascript
+ImágenesPath: '/assets/images'
+
