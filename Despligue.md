@@ -1,3 +1,14 @@
+
+
+
+## 📌 Descricion del proyecto
+
+- 🌍 **Sitio Web en Producción:** [**POKEDEX**](https://polite-bush-02974e510.6.azurestaticapps.net/)
+- 👤 **Autor:** Juan Sebastián Blanco Velásquez
+- 🗂️ **Repositorio del Código:** [**GITHUB JUAN**](https://github.com/Juansebblanco/PoKeDeX1)
+- 📖 **Asignatura:** Sistemas Distribuidos
+- 🎓 **Semestre Académico:** 9° semestre - Ingeniería de Sistemas
+- 🗓️ **Fecha de Entrega:** 25/04/2025
 # 🚀 Despliegue de PokeDex en Azure Static Web Apps desde GitHub
 
 ## 🧭 Paso a paso para el despliegue
