@@ -5,7 +5,10 @@ Azure es una plataforma de nube de Microsoft que ofrece una variedad de servicio
 
 #### ¿Cómo crear una cuenta en Azure?
 
-1. Ve a [https://azure.microsoft.com](https://azure.microsoft.com)2. Haz clic en **"Iniciar sesión"** y luego en **"Comenzar gratis"** para crear una cuenta gratuita.3. Proporciona los datos requeridos, incluyendo un método de pago (no se te cobrará si no superas los 200 USD en créditos gratuitos durante los primeros 30 días).4. Sigue el proceso de verificación y confirma tu cuenta.
+1. Ve a [https://azure.microsoft.com](https://azure.microsoft.com)
+2. Haz clic en **"Iniciar sesión"** y luego en **"Comenzar gratis"** para crear una cuenta gratuita.
+3. Proporciona los datos requeridos, incluyendo un método de pago (no se te cobrará si no superas los 200 USD en créditos gratuitos durante los primeros 30 días).
+4. Sigue el proceso de verificación y confirma tu cuenta.
 
 
 
@@ -30,4 +33,6 @@ Una vez registrado, podrás crear y gestionar tus repositorios para almacenar tu
 
 ## ✅ Requisitos previos
 
-- Cuenta en [Azure Portal](https://portal.azure.com)- Cuenta en [GitHub](https://github.com)- Repositorio con el proyecto (en este caso: [PoKeDeX1](https://github.com/Juansebblanco/PoKeDeX1))- Proyecto debe ser una app estática (HTML, CSS, JS o frameworks como React, Vue, Angular)
+- Cuenta en [Azure Portal](https://portal.azure.com)- Cuenta en [GitHub](https://github.com)
+- Repositorio con el proyecto (en este caso: [PoKeDeX1](https://github.com/Juansebblanco/PoKeDeX1))
+- Proyecto debe ser una app estática (HTML, CSS, JS o frameworks como React, Vue, Angular)
