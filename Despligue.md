@@ -56,6 +56,33 @@ Tu app será accesible desde la siguiente URL:
 🔗 [***POKEDEX***](https://polite-bush-02974e510.6.azurestaticapps.net/)
 
 ---
+## 🔐 Seguridad de la Aplicación Web
+
+Una parte fundamental del despliegue de aplicaciones web modernas es garantizar su seguridad frente a ataques comunes como **inyecciones de código (XSS)**, **clickjacking**, **secuestro de recursos**, entre otros.
+
+Para lograr esto, se implementaron políticas de seguridad en los encabezados HTTP que son enviados con cada respuesta del servidor. Estos encabezados controlan cómo los navegadores deben tratar la información cargada, restringiendo comportamientos peligrosos y reforzando buenas prácticas de privacidad.
+
+A continuación, se presenta la configuración aplicada y su explicación detallada:
+
+---
+
+### ⚙️ Configuración de encabezados HTTP
+
+```json
+{
+  "globalHeaders": {
+    "Content-Security-Policy": "default-src 'self' https://pokeapi.co; connect-src *; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src * data:; font-src 'self' https://fonts.gstatic.com;",
+    "X-Frame-Options": "DENY",
+    "Permissions-Policy": "geolocation=(), camera=(), microphone=()",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  }
+}
+
+---
+
 
 ## 📂 Código fuente del proyecto
 
