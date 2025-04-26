@@ -66,23 +66,6 @@ A continuación, se presenta la configuración aplicada y su explicación detall
 
 ---
 
-### ⚙️ Configuración de encabezados HTTP
-
-```json
-{
-  "globalHeaders": {
-    "Content-Security-Policy": "default-src 'self' https://pokeapi.co; connect-src *; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src * data:; font-src 'self' https://fonts.gstatic.com;",
-    "X-Frame-Options": "DENY",
-    "Permissions-Policy": "geolocation=(), camera=(), microphone=()",
-    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
-  },
-  "navigationFallback": {
-    "rewrite": "/index.html"
-  }
-}
-
----
-
 
 ## 📂 Código fuente del proyecto
 
