@@ -62,8 +62,6 @@ Una parte fundamental del despliegue de aplicaciones web modernas es garantizar 
 
 Para lograr esto, se implementaron políticas de seguridad en los encabezados HTTP que son enviados con cada respuesta del servidor. Estos encabezados controlan cómo los navegadores deben tratar la información cargada, restringiendo comportamientos peligrosos y reforzando buenas prácticas de privacidad.
 
-A continuación, se presenta la configuración aplicada y su explicación detallada:
-
 ---
 
 
